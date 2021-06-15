@@ -1,0 +1,63 @@
+
+body{
+  background-color: black;
+  font-family: 'Baloo Tammudu 2', cursive;
+}
+video {
+    position: absolute;
+    z-index: -1;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+.form{
+  text-align: center;
+
+  box-shadow: 0 30px 60px 0 rgba(148, 80, 80, 0.4);
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  left: 0;
+  right: 0;
+  position: absolute;
+  border-top: 5px solid #810000;
+  top: 30%;
+}
+a{
+  padding: 5px 15px;
+  text-decoration: none;
+  color: #dddddd;
+}
+p{
+  text-align: left;
+  padding-left: 28%;
+  padding-bottom: 0;
+  margin: 0;
+  color: #dddddd;
+}
+.name{
+  background-color: #DDDDDD;
+}
+.name:hover{
+  background-color: #FDFAF6;
+  border-bottom: 5px solid #CE1212;
+height: 20px;
+width: 200px;
+transition: ease 0.5s;
+}
+a:hover{
+  font-size: 20px;
+}
+.submit:hover{
+  background-color: #FDFAF6;
+  border-bottom: 5px solid #CE1212;
+height: 27px;
+width: 70px;
+transition: ease 0.5s;
+}
